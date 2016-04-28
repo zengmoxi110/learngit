@@ -1,4 +1,5 @@
 #!/bin/bash
+#3thd change
 myPath="/root/my/"
 myFile="/root/my/abc"
 
