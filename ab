@@ -1,0 +1,13 @@
+#!/bin/bash
+myPath="/root/my/"
+myFile="/root/my/abc"
+
+if [ ! -d "$myPath" ];
+then 
+mkdir "$myPath"
+fi
+
+if [ ! -f "$myFile" ];then
+touch "$myFile"
+fi
+
